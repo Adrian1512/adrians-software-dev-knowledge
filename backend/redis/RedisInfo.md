@@ -1,5 +1,34 @@
 # Redis
 
+- [Redis](#redis)
+  - [What is Redis?](#what-is-redis)
+  - [Benefits 🤑](#benefits-)
+    - [Performance](#performance)
+    - [Data structures](#data-structures)
+    - [Modules](#modules)
+    - [Replica and persistence](#replica-and-persistence)
+    - [High availability and scalability](#high-availability-and-scalability)
+    - [Redis vs. Memcached](#redis-vs-memcached)
+  - [RedisInsight 📱](#redisinsight-)
+  - [RedisMod 🐋](#redismod-)
+  - [Continuous Deployment ♻️](#continuous-deployment-️)
+  - [Observabilty 👀](#observabilty-)
+  - [Anti-Patters ⛔](#anti-patters-)
+    - [1. Large databases running on a single shard/Redis instance](#1-large-databases-running-on-a-single-shardredis-instance)
+    - [2.  One connection per request](#2--one-connection-per-request)
+    - [3. Connecting directly to Redis instances](#3-connecting-directly-to-redis-instances)
+    - [4. More than one secondary shard (Redis OSS)](#4-more-than-one-secondary-shard-redis-oss)
+    - [5. Performing single operation](#5-performing-single-operation)
+    - [6. Caching keys without TTL](#6-caching-keys-without-ttl)
+    - [7. Endless Redis Replication Loop](#7-endless-redis-replication-loop)
+    - [8. Hot keys](#8-hot-keys)
+    - [9. Using keys command](#9-using-keys-command)
+    - [10. Running Ephemeral Redis as a primary database](#10-running-ephemeral-redis-as-a-primary-database)
+    - [11.  Storing JSON blobs in a string](#11--storing-json-blobs-in-a-string)
+    - [12. Translating a table or JSON to a HASH without considering query pattern](#12-translating-a-table-or-json-to-a-hash-without-considering-query-pattern)
+  - [Redis Crash Course](#redis-crash-course)
+
+
 ## What is Redis?
 
 Redis is an open source, in memory, key-value data store most commonly used as a primary database, cache, message brokerm and queque. It's usually used as caching, session management, gaming, fraud detection, leaderboards, real-time analytics, geospatial indexing, ride-sharing, social media, and streaming applications.
@@ -153,3 +182,7 @@ The usage of SELECT and multiple databases inside one Redis instance was mention
 
 The RedisTimeSeries module provides a direct compete to time series databases. But if the only query is based on ordering, it's unnecessary complexity. Hence, it is recommended to use a SORTED SET with a score of 0 for every value. The values are appended. Or use a timestamp for the score for simple time based queries.
 
+## Redis Crash Course
+
+[Video](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
+[freeCodeCampCourse](https://www.youtube.com/watch?v=XCsS_NVAa1g)
