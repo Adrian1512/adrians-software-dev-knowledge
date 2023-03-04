@@ -116,3 +116,30 @@ The corresponding microservice architecture would have services corresponding to
 ![by capabilities](https://microservices.io/i/decompose-by-business-capability.png)
 
 ### Decompose by subdomain
+
+Define services corresponding to Domain-Driven Design (DDD) subdomains. DDD refers to the application’s problem space - the business - as the domain. A domain is consists of multiple subdomains. Each subdomain corresponds to a different part of the business.
+
+Subdomains can be classified as follows:
+
+- Core - key differentiator for the business and the most valuable part of the application
+- Supporting - related to what the business does but not a differentiator. These can be implemented in-house or outsourced.
+- Generic - not specific to the business and are ideally implemented using off the shelf software
+
+This pattern has the following benefits:
+
+- Stable architecture since the subdomains are relatively stable
+- Development teams are cross-functional, autonomous, and organized around delivering business value rather than technical features
+- Services are cohesive and loosely coupled
+
+There are the following issues to address:
+
+- How to identify the subdomains? Identifying subdomains and hence services requires an understanding of the business. Like business capabilities, subdomains are identified by analyzing the business and its organizational structure and identifying the different areas of expertise. Subdomains are best identified using an iterative process. Good starting points for identifying subdomains are:
+
+- organization structure - different groups within an organization might correspond to subdomains
+- high-level domain model - subdomains often have a key domain object
+
+#### Example
+
+![by subdomain](https://microservices.io/i/decompose-by-subdomain.png)
+
+### Self-contained service
