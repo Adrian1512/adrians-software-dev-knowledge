@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\iwaho\\Documents\\Learning\\knowledge-repo\\backend\\microservices\\c#_microservices\\PlatformService\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "c:\\Users\\iwaho\\Documents\\Learning\\knowledge-repo\\backend\\microservices\\c#_microservices\\PlatformService\\PlatformService.csproj",
+  "SerializedFilePath": "c:\\Users\\iwaho\\Documents\\Learning\\knowledge-repo\\backend\\microservices\\c#_microservices\\CommandService\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\iwaho\\Documents\\Learning\\knowledge-repo\\backend\\microservices\\c#_microservices\\CommandService\\CommandService.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,7 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "PlatformService",
+  "RootNamespace": "CommandService",
   "Documents": [],
   "SerializationFormat": "0.3"
 }
