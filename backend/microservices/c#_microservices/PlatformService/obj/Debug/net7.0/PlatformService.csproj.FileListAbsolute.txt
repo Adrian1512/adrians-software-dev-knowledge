@@ -77,3 +77,11 @@ C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_micros
 C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\obj\Debug\net7.0\PlatformService.pdb
 C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\iwaho\Documents\Learning\knowledge-repo\backend\microservices\c#_microservices\PlatformService\bin\Debug\net7.0\Grpc.Net.Common.dll
